@@ -1,0 +1,17 @@
+.p1 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+ border: solid green 10px;
+margin: 0 0 20px 0;
+}
+.p2{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: solid green 10px;
+    margin: 10px 0 0 0;
+}
+/* This state is called marginal collapse
+instead of 10+20=30
+ It only considers more margin, ie 20 */
